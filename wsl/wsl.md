@@ -75,6 +75,14 @@ cat ~/.ssh/id_ed25519.pub
 git clone git@github.com:USER/foo.git
 ```
 
+#lynx
+Terminal text based web browser
+
+```
+sudo apt install lynx
+```
+
+
 #pandoc
 
 Convert and view markdown to HTML in the terminal
