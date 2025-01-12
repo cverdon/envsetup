@@ -36,6 +36,8 @@ GOTCHA: If you are using WSL2, it'll be lightning fast with git prompts if your 
 
 # HTOP
 
+Process and system resources viewer.
+
 ```
 sudo apt install htop
 ```
@@ -73,3 +75,11 @@ cat ~/.ssh/id_ed25519.pub
 git clone git@github.com:USER/foo.git
 ```
 
+#pandoc
+
+Convert and view markdown to HTML in the terminal
+
+```
+sudo apt install pandoc
+pandoc filename.md -t html | lynx -stdin
+```
