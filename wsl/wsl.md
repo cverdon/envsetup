@@ -62,6 +62,7 @@ https://dev.to/matowang/quick-guide-setup-github-ssh-keys-on-linux-servers-5ena#
 git config --global user.name "bob"
 git config --global user.email bob@mail.com
 #git config --global credential.helper=store --file ~/.git-credentials <- not needed for ssh
+git config --global init.defaultBranch main
 ```
 
 - Configure SSH Key
